@@ -1,0 +1,20 @@
+1. Tìm kiếm nhị phân đệ quy:
+    _ Chia nhỏ mảng thành các phần bằng nhau và kiểm tra phần giữa của mảng xem nó có phải giá trị cần
+tìm hay không. Nếu giá rị ở phần giữa không phải giá trị cần tìm, thuật toán chọn một phần của mảng 
+để tiếp tục tìm kiếm, bỏ qua phần còn lại.
+    _ Lặp lại cho đến khi tìm được giá trị hoặccho đến khi mảng thu nhỏ đến một kích thước không thể 
+chia nhỏ được nữa.
+
+2. Tìm kiếm nhị phân không đệ quy:
+    _ sử dụng một vòng lặp để thực hiện việc tìm kiếm.
+    _ Cách hoạt động của tìm kiếm nhị phân không đệ quy như sau:
+        a. Bắt đầu với hai chỉ số, low và high, được thiết lập để trỏ vào hai đầu của mảng.
+        b. Trong mỗi vòng lặp, tính chỉ số của phần tử ở giữa mảng (tức là (low + high) / 2).
+        c. So sánh giá trị tại vị trí giữa với giá trị cần tìm.
+        d. Nếu giá trị tại vị trí giữa bằng giá trị cần tìm, trả về vị trí đó.
+        e. Nếu giá trị tại vị trí giữa lớn hơn giá trị cần tìm, di chuyển chỉ số high về phía trái 
+           (vị trí giữa - 1).
+        f. Nếu giá trị tại vị trí giữa nhỏ hơn giá trị cần tìm, di chuyển ch
+
+3. Tóm lại, đệ quy là một kỹ thuật lập trình mà một hàm gọi chính nó, giúp giải quyết các vấn đề bằng 
+cách chia nhỏ chúng thành các vấn đề nhỏ hơn và giải quyết từng phần một.
